@@ -1,49 +1,67 @@
+/* Custom Styles */
+
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+  background-color: #E8B9FA; /* Light lavender background */
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background-color: #7D73FA; /* Deep blue accent */
+  color: white;
   padding: 20px 0;
-  text-align: center;
 }
 
-header h1 {
-  margin: 0;
+nav.navbar {
+  background-color: #B9C9FA; /* Light blue */
 }
 
-section {
+nav .nav-link {
+  color: #7D73FA; /* Deep blue text for contrast */
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  color: #FAB9F3; /* Pink highlight on hover */
+}
+
+main {
+  background-color: #fff; /* White background for main content area */
   padding: 20px;
-  margin: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 section h2 {
-  color: #333;
+  color: #7D73FA; /* Deep blue headings */
 }
 
-.experience-item {
-  background: #fff;
-  padding: 15px;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.card {
+  background-color: #D2B8FA; /* Light purple for cards */
+}
+
+.card .card-title {
+  color: #7D73FA; /* Deep blue for card titles */
+}
+
+.list-group-item {
+  background-color: #FAB9F3; /* Pink for list items */
+  color: white;
+  border: none;
 }
 
 footer {
-  text-align: center;
+  background-color: #7D73FA; /* Deep blue for footer */
+  color: white;
   padding: 20px 0;
-  background: #333;
-  color: #fff;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-      padding: 0 10px;
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  header, footer {
+      padding: 10px 0;
+  }
+
+  nav .navbar-nav .nav-item .nav-link {
+      color: white; /* Lighter text in collapsed nav */
   }
 }
