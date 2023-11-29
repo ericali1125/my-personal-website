@@ -3,37 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
+    <title>Erica Li - Clinical Consultant</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
     <header>
         <h1>Erica Li</h1>
         <p>Clinical Consultant at Stryker - Australia's #1 Best Place to Work since 2014</p>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>[About section content]</p>
-    </section>
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience-item">
-            <h3>Stryker</h3>
-            <p>[Details of your role at Stryker]</p>
-        </div>
-        <!-- Repeat for other experiences -->
-    </section>
-    <section id="education">
-        <h2>Education</h2>
-        <p>University of Melbourne</p>
-        <!-- Additional details -->
-    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>[Detailed description]</p>
+            <ul>
+                <li>Key area of expertise 1</li>
+                <li>Key area of expertise 2</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <article>
+                <h3>Stryker</h3>
+                <p>[Role and responsibilities]</p>
+                <ol>
+                    <li>Responsibility 1</li>
+                    <li>Responsibility 2</li>
+                    <!-- Add more list items as needed -->
+                </ol>
+            </article>
+            <!-- Repeat for other experiences -->
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>University of Melbourne</h3>
+                <p>Bachelor of Science - BS, Science</p>
+                <!-- Additional details or list items -->
+            </article>
+            <!-- Repeat for other educational qualifications -->
+        </section>
+    </main>
+
+    <aside>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <!-- Add more list items as needed -->
+            </ul>
+        </section>
+    </aside>
+
     <section id="contact">
         <h2>Contact Info</h2>
-        <p>Melbourne, Victoria, Australia</p>
-        <!-- Additional contact details -->
+        <address>
+            Melbourne, Victoria, Australia<br>
+            <a href="mailto:email@example.com">email@example.com</a>
+        </address>
     </section>
+
     <footer>
         <p>© 2023 Erica Li</p>
     </footer>
